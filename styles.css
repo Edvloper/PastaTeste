@@ -1,0 +1,39 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap');
+
+    *{
+        padding: 32px;
+        border: 32px;
+        margin: 32px;
+    }
+
+    body{
+        background-color: rgb(0, 0, 0);
+        color: rgba(255, 255, 255, 0.859);
+        font-size: 30px;
+    }
+
+    header{
+        background-color: rgb(106, 9, 9);
+        padding: 20px;
+        border-bottom: 5px solid orange;
+    }
+        header div {
+            text-align: center;
+        }
+    header div a {
+        color: white;
+        font-size: 20px;
+        font-family:"Unkempt", cursive;
+        line-height: normal;
+        margin: 16px;
+        text-decoration: none;
+        transition: color 800ms;
+
+        }
+    
+        header div a:hover{
+            color: white;
+            transition: color 800ms;
+        }
