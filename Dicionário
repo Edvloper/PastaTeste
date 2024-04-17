@@ -1,0 +1,103 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM9ik9fDRj3dEW5Q3xjYvX0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Edvloper/PastaTeste/blob/main/Dicion%C3%A1rio\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DFPC2ENuMuif",
+        "outputId": "c567f880-0de6-468d-ae52-1e065163672b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'nome': 'João', 'idade': 30, 'cidade': 'Teresina'}\n"
+          ]
+        }
+      ],
+      "source": [
+        "pessoa = {\"nome\":\"João\",\"idade\":30, \"cidade\":\"Teresina\"}\n",
+        "print(pessoa)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "capitais = {\"Brasil\":\"Brasília\", \"Alemanha\" :\"berlim\", \"japão\": \"Tóquio\"}\n",
+        "capital_brasil = capitais[\"Brasil\"]\n",
+        "print(capital_brasil)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CupxltsIPdzJ",
+        "outputId": "0f94b591-4570-4825-b318-ef676d45ebb0"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Brasília\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pessoa = {\"nome\":\"João\",\"idade\":29, \"filhos\":[\"Paulo,\" \"Maria\"]}\n",
+        "print(pessoa)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-_Zce7esN1ik",
+        "outputId": "e33e8070-2df7-45f9-f4ed-a9402142aadd"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'nome': 'João', 'idade': 29, 'filhos': ['Paulo,Maria']}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
